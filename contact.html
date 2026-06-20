@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indexer un projet - Hub Cohorte 2 - Akieni Academy</title>
+    <link rel="stylesheet" href="semanstyle.css">
+</head>
+<body>
+
+    <header>
+        <h1>Indexer votre projet</h1>
+        <p>Ce hub n’organise aucune validation. Ajoutez votre projet ici pour lui donner de la visibilité auprès de la Cohorte 2.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="contact.html">Indexer mon projet</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Avant d’indexer</h2>
+            <p>Votre projet sera visible dans les 48h ouvrées. Pour échanger avec la promo, utilisez les groupes WhatsApp de l’Académie.</p>
+
+            <aside>
+                <h3>Groupes WhatsApp disponibles</h3>
+                <ul>
+                    <li><strong>WhatsApp Général :</strong> vie de la cohorte</li>
+                    <li><strong>WhatsApp Entraide Inter Parcours :</strong> aide technique entre pairs</li>
+                   
+                </ul>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Formulaire d’indexation</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Vos informations</legend>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required autocomplete="given-name">
+
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" placeholder="Votre nom" required autocomplete="family-name">
+
+                    <label for="email">Adresse email</label>
+                    <input type="email" id="email" name="email" placeholder="votremail@exemple.com" required autocomplete="email">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informations du projet</legend>
+
+                    <label for="nom-projet">Nom du projet</label>
+                    <input type="text" id="nom-projet" name="nom-projet" placeholder="Ex : Devinettes Mystérieuses" required>
+
+                    <label for="description-projet">Description courte</label>
+                    <textarea id="description-projet" name="description-projet" rows="4" placeholder="Décrivez votre projet en 3 à 5 phrases : que fait-il, pour qui ?" required></textarea>
+
+                    <label for="lien-projet">Lien du projet</label>
+                    <input type="url" id="lien-projet" name="lien-projet" placeholder="https://votre-projet.github.io" required>
+
+                    <label for="type-projet">Type de projet</label>
+                    <select id="type-projet" name="type-projet" required>
+                        <option value="">Sélectionnez un type</option>
+                        <option value="application-web">Application web</option>
+                        <option value="portfolio">Portfolio personnel</option>
+                        <option value="ressource">Ressource pédagogique</option>
+                        <option value="outil">Outil pour la cohorte</option>
+                        <option value="autre">Autre</option>
+                    </select>
+
+                    <label for="technologies">Technologies utilisées</label>
+                    <input type="text" id="technologies" name="technologies" placeholder="Ex : HTML, CSS, JavaScript" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message libre</legend>
+                    <label for="message">Notes ou remarques</label>
+                    <textarea id="message" name="message" rows="3" placeholder="Optionnel : tout ce que vous voulez ajouter"></textarea>
+
+                    <label for="consentement">
+                        <input type="checkbox" id="consentement" name="consentement" required>
+                        J’accepte que ce projet soit indexé et visible par la Cohorte 2 sur le hub.
+                    </label>
+                </fieldset>
+
+                <button type="submit">Indexer mon projet</button>
+                <button type="reset">Réinitialiser</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Construit avec HTML sémantique par la Cohorte 2 - Akieni Academy, Promotion 2026</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="contact.html">Indexer mon projet</a></li>
+            </ul>
+        </nav>
+        <p><small>Ce site utilise uniquement du HTML5 sémantique et un CSS classless.</small></p>
+    </footer>
+
+</body>
+</html>
